@@ -1,0 +1,132 @@
+.container{
+  width: 100%;
+  padding: 20px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1px;
+  margin-left: 50px;
+}
+
+.container .form-container{
+  width: 50%;
+}
+.container .form-container h2{
+  margin-bottom: 20px;
+}
+
+.container .form-container form{
+  width: 190px;
+  padding:10px
+}
+
+.container .form-container form .input-field{
+  width: 100%;
+  border: none;
+}
+
+.container .form-container form .input-with-icon{
+  width: 150%;
+  margin-top: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: all ease-in 0.25s;
+}
+
+.container .form-container form .input-with-icon:focus-within
+{
+  border: 2px solid black;
+}
+
+.container .form-container form .input-field:focus{
+  width: 90%;
+  padding: 8px;
+  border:none;
+  overflow:none;
+  background: transparent;
+  
+}
+
+
+.container .form-container form .input-with-icon label{
+  font-weight: 60px;
+  font-size: 14px;
+}
+
+.container .form-container form .input-with-icon i{
+  width: 100;
+  font-size: 20px;
+  padding: 8px;
+  color: silver;
+  transition: all ease-in 0.25s;
+}
+
+.container .form-container form .action-button
+{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5em;
+  padding: 0 0 20px;
+}
+.form-container form .action-button button{
+  width: 40%;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all ease-in 0.25s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.form-container form .action-button button:first-child{
+  background:linear-gradient(120deg,blue,limegreen)
+}
+
+.form-container form .action-button button:last-child{
+  background:linear-gradient(120deg,red)
+}
+
+.container .table-container {
+    width: 50%;
+}
+
+.container .table-container h2{
+  margin-bottom: 20px;
+}
+
+.container .table-container table {
+    width: 60%;
+    border-radius: 5px;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+
+.container .table-container table thead {
+    width: 100%;
+    background-color: silver;
+}
+
+.container .table-container table th {
+    padding: 10px;
+}
+
+.container .table-container table tbody tr {
+    border-bottom: 1px;
+}
+
+.container .table-container table tbody td {
+    border: 1px;
+    align-items: center;
+}
+
+.container .table-container table tbody i {
+    cursor: pointer;
+    font-size: 20px;
+    color: red;
+}
+
+
